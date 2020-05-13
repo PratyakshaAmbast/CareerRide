@@ -1,0 +1,343 @@
+#logo{
+    margin:4px;
+    width: 237px;
+    height: 72px;
+    background: white;
+    font-size: 45px;
+    text-align: center;
+    line-height: 77px;
+    /*border-radius: 50px;
+    -webkit-border-radius: 90px;
+    -moz-border-radius: 90px;*/
+}
+
+a {
+    text-decoration: none;
+}
+
+body{
+    margin: 50px;
+    
+}
+
+ul {
+    list-style: none;
+    padding: 23px;
+    margin: 0;
+}
+
+.content, footer {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.clearfix{
+    clear: both;
+}
+
+header{
+    background: black;
+    padding: 8px 0;
+}
+nav{
+    width: 1000px;
+    margin: auto;
+}
+
+nav ul li {
+    
+    float: left;
+    list-style: none;
+    border-right: 1px solid white;
+}
+
+nav ul li:last child{
+    border-right: none;
+}
+
+nav ul{
+    margin:8px;
+    
+}
+
+nav ul li a{
+    color:white;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background: black;
+    color:bisque;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+nav ul ul {
+    display: none;
+    width: 150px;
+    position: absolute;
+    background: #600000;
+    
+}
+
+nav ul ul li{
+    border-right: none;
+}
+
+nav ul ul li a{
+    display: inline-block;
+}
+
+nav ul li:hover ul{
+    display: block;
+    cursor: pointer;
+}
+
+#main{
+    background: #ebebeb;
+  
+    padding: 40px 0; 
+}
+
+
+#main .articles{
+    float: left;
+    width: 650px;
+    
+}
+
+#main article {
+    margin-bottom: 20px;
+    background: white;
+}
+
+
+
+#main img{
+    width: 275px;
+    height: 270px;
+    margin: 5px;
+    margin-top: 10px;
+}
+
+#main .articles .excerpt{
+    float:right;
+    width: 365px;
+}
+
+#main .articles .bottom {
+    border-top: 1px solid #999;
+    color: #999;
+    padding: 0 0;
+    float: left;
+    width: 650px;
+}
+
+#main .aticles .bottom > div {
+    float: left;
+    padding: 0 20px;
+    
+}
+
+#main .articles .bottom .comments {
+    float: right;
+}
+
+#main .sidebar{
+    float: right;
+    width: 260px;
+    min-height: 100px;
+    background: bisque;
+    padding: 20px;
+}
+
+#main .sidebar form{
+    position: relative;
+}
+
+#main .sidebar input{
+    padding: 10px;
+    padding-right: 20px;
+    border: 1px solid #ddd;
+    width: 105px;
+    height: auto;
+}
+
+#main .sidebar input [type=submit] {
+    background: url(search.gif);
+    width: 25px;
+    height: 25px;
+    text-indent: -9999px;
+    border: none;
+    padding: 0;
+    position: absolute;
+    top: 5px;
+    right: 0;
+    
+}
+
+#main .sidebar a {
+    color: #158ebf;
+}
+
+#main .sidebar ul li{
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+#main .sidebar ul li:last-child{
+    border-bottom:none;
+}
+
+#main .sidebar h3{
+    margin: 40px 20px;
+}
+
+footer{
+    padding: 20px 0;
+}
+
+footer .copyright{
+    float: left;
+}
+
+footer .contact{
+    float: right;
+   
+    
+}
+
+footer a{
+    color: #158ebf;
+}
+
+/*single post*/
+
+#main .single-post {
+    float: left;
+    width: 610px;
+    padding: 20px;
+    background: bisque;
+}
+    
+
+#main h1,h2{
+    margin: 0 0 20px;
+    font-size: 32px;
+}
+
+.single-post .comments{
+    margin-top: 50px;
+}
+
+.comments .single-comment{
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+
+.comments .avatar{
+    float: left;
+}
+
+ #main .comments .avatar img{
+    width: 100px;
+    height: 70px;
+    margin-right: 20px;
+}
+
+.comments .name-and-text{
+    float: left;
+    width: 300px;
+}
+
+p{
+    margin: 0 0 20px;
+}
+
+h3.add-comment{
+    margin-top: 50px;
+}
+
+.comments label{
+    display: inline-block;
+    width: 100px;
+}
+
+form input{
+    width: 300px;
+    height:30px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid red;
+    
+}
+
+form .input-row{
+    margin: 5px 0;
+}
+
+form textarea{
+    width: 100%;
+    height: 300px;
+    font-size: 14px;
+    border: 1px solid red;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+form input[type=submit]{
+    font-size: 20px;
+    color: #5c5c5c;
+    width: auto;
+    padding: 10px 20px;
+    cursor: pointer;
+    height: auto;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fcfff4+0,dfe5d7+40,b3bead+100;Wax+3D+%233 */
+background: #fcfff4; /* Old browsers */
+background: -moz-linear-gradient(top,  #fcfff4 0%, #dfe5d7 40%, #b3bead 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #fcfff4 0%,#dfe5d7 40%,#b3bead 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #fcfff4 0%,#dfe5d7 40%,#b3bead 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=0 ); /* IE6-9 */
+
+}
+
+form input[type=submit]:hover{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b3bead+0,dfe5d7+60,fcfff4+100 */
+background: #b3bead; /* Old browsers */
+background: -moz-linear-gradient(top,  #b3bead 0%, #dfe5d7 60%, #fcfff4 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #b3bead 0%,#dfe5d7 60%,#fcfff4 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #b3bead 0%,#dfe5d7 60%,#fcfff4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3bead', endColorstr='#fcfff4',GradientType=0 ); /* IE6-9 */
+
+}
+
+/*contact*/
+.contact{
+    background: antiquewhite;
+    padding: 20px;
+}
+
+.contact form{
+    float: left;
+    width: 600px;
+    margin-right: 50px;
+}
+
+.contact address {
+    float: left;
+}
+
+.contact address .company {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.contact form input {
+    width:100%;
+    box-sizing: border-box;
+    }
+    
+    .contact address a {
+        color: #158ebf;
+    }
+
